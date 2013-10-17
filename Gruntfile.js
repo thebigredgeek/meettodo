@@ -3,15 +3,9 @@ module.exports = function(grunt){
     grunt.loadNpmTasks("grunt-contrib-watch");
     grunt.loadNpmTasks("grunt-contrib-jshint");
     grunt.loadNpmTasks("grunt-express-server");
-    grunt.loadNpmTasks("grunt-karma");
 
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
-        karma:{
-            unit:{
-                configFile:"karma.conf.js"
-            }
-        },
         jshint:{
             options:{
                 jshintrc:".jshintrc"
@@ -40,5 +34,5 @@ module.exports = function(grunt){
 
 
     grunt.registerTask("default",["concurrent"]);
-    grunt.registerTask("test",["jshint","karma"]);
+    grunt.registerTask("test",["jshint"]);
 };

@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * The controller for the confirmation modal
  */
