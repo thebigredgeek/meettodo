@@ -30,6 +30,5 @@
   },
   "_source": "git://github.com/angular-ui/ui-sortable.git",
   "_target": "~0.0.1",
-  "_originalSource": "angular-ui-sortable",
-  "_direct": true
+  "_originalSource": "angular-ui-sortable"
 }
